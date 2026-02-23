@@ -1,6 +1,12 @@
 ---
 name: minions-test-runs
-description: Execution records, turn-by-turn logs, and assertion results
+id: OC-0168
+version: 1.0.0
+description: "Execution records, turn-by-turn logs, and assertion results"
+category: dev-tools
+subcategory: testing
+tags: ["minion", "dev-tools", "testing"]
+comments:
 ---
 
 # minions-test-runs — Agent Skills
