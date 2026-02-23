@@ -1,0 +1,38 @@
+{
+  "name": "@minions-test-runs/cli",
+  "version": "0.1.0",
+  "description": "CLI for minions-test-runs — Execution records, turn-by-turn logs, and assertion results",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxn2020/minions-test-runs"
+  },
+  "homepage": "https://test-runs.minions.help",
+  "keywords": ["test-runs","ai","minions"],
+  "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+  "type": "module",
+  "bin": {
+    "test-runs": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "dependencies": {
+    "@minions-test-runs/sdk": "workspace:*",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "inquirer": "^13.2.5",
+    "minions-sdk": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
+}
