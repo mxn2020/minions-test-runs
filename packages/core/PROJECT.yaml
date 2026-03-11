@@ -6,3 +6,4 @@ description: "Execution records, turn-by-turn logs, and assertion results"
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox

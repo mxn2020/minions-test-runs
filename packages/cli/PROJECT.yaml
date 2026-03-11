@@ -6,3 +6,4 @@ description: "CLI for minions-test-runs — Execution records, turn-by-turn logs
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
