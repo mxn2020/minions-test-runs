@@ -1,0 +1,15 @@
+name: minions-test-runs-workspace
+project_scope: main
+project_type: monorepo
+description: "Execution records, turn-by-turn logs, and assertion results"
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-test-runs"
+deploy_url: null
+last_active: 2026-02-23
+tags: [minion, toolbox, ai-agent, automation, minions, test, runs]
+notes: null
+id: 95db9e9e-7d24-46c4-b43d-f8372684993d

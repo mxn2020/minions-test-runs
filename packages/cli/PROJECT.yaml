@@ -1,0 +1,8 @@
+name: "@minions-test-runs/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-test-runs-workspace
+description: "CLI for minions-test-runs — Execution records, turn-by-turn logs, and assertion results"
+priority: high
+deploy_url: null
+tags: null
